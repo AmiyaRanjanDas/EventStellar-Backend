@@ -1,0 +1,114 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Amiya Das",
+      "mail": "amiya@gmail.com",
+      "mobile": "8249898414",
+      "myBookings": [
+        {
+          "eventId": 1,
+          "noOfTicket": 2
+        },
+        {
+          "eventId": 1,
+          "noOfTicket": 2
+        }
+      ],
+      "password": "amiya123"
+    },
+    {
+      "id": 2,
+      "name": "aditya",
+      "mail": "aditya@gmail.com",
+      "mobile": "8249898413",
+      "myBookings": [
+        {
+          "eventId": 1,
+          "noOfTicket": 5
+        }
+      ],
+      "password": "aditya123"
+    },
+    {
+      "id": 3,
+      "name": "manas",
+      "mail": "manas@gmail.com",
+      "mobile": "8249898412",
+      "myBookings": [
+        {
+          "eventId": 1,
+          "noOfTicket": 2
+        }
+      ],
+      "password": "manas123"
+    },
+    {
+      "id": 4,
+      "name": "Rabi Jena",
+      "mail": "rabi@gmail.com",
+      "mobile": "8249898411",
+      "myBookings": [
+        {
+          "eventId": 1,
+          "noOfTicket": 2
+        }
+      ],
+      "password": "rabi123"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "adminEmail": "amiya@gmail.com",
+      "name": "Holi celebration",
+      "description": "Holi celebrates the victory of good over evil, symbolized by the burning of the demoness Holika. This event is known as Holika Dahan and is celebrated on the eve of Holi.",
+      "location": "Bhubaneswar",
+      "place": "Swosti Premium,Jaydev Vihar, Nandankanan Rd, Bhubaneswar, Odisha",
+      "slot": 50,
+      "price": 350,
+      "booked": [
+        {
+          "userEmail": "aditya@gmail.com",
+          "ticketNo": 5
+        },
+        {
+          "userEmail": "manas@gmail.com",
+          "ticketNo": 2
+        },
+        {
+          "userEmail": "rabi@gmail.com",
+          "ticketNo": 2
+        },
+        {
+          "userEmail": "amiya@gmail.com",
+          "ticketNo": 2
+        }
+      ],
+      "comment": [
+        "Hii everyone, Join us in time We wait for all"
+      ],
+      "date": "2024-06-29",
+      "starttime": "10.00",
+      "endtime": "17.00"
+    },
+    {
+      "adminEmail": "amiya@gmail.com",
+      "name": "Diwali Festival",
+      "description": "Diwali is the Hindu festival of lights, with variations celebrated in other Indian religions. It symbolises the spiritual \"victory of light over darkness, good over evil, and knowledge over ignorance\"",
+      "location": "Bhubaneswar",
+      "place": "Mayfair road,Jaydev Vihar,Bhubaneswar",
+      "slot": "10",
+      "price": "600",
+      "booked": [],
+      "comment": [
+        "Hii everyone, Join us in time We wait for all",
+        "Welcome Guys"
+      ],
+      "date": "2024-06-30",
+      "starttime": "09:00",
+      "endtime": "14:00",
+      "id": 2
+    }
+  ]
+}
